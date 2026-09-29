@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import { Plus, RotateCcw, UserPlus, X } from "lucide-react";
+import { Plus, RotateCcw, X } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import {
