@@ -24,6 +24,9 @@ export default function HomePage() {
           </div>
         </CardContent>
       </Card>
+      <footer className="text-center text-xs text-muted-foreground">
+        จัดทำโดย Nontanun Hinmalai
+      </footer>
     </div>
   );
 }
