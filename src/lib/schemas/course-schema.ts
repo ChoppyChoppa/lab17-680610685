@@ -32,7 +32,7 @@ export const courseFormSchema = z.object({
           .trim()
           .pipe(z.email("กรุณากรอกอีเมลให้ถูกต้อง"))
           .refine((email) => email.endsWith("@cmu.ac.th"), {
-            message: "อีเมลต้องลงท้ายด้วย @cmu.ac.th",
+            message: "ต้องเป็นอีเมล @cmu.ac.th",
           }),
       }),
     )
